@@ -1,0 +1,12 @@
+{
+  "name": "sample1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter=nyan tests/*-spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
