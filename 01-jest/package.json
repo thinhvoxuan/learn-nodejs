@@ -1,0 +1,23 @@
+{
+  "name": "01-jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "tdd" : "onchange 'src/**/*.js' -- npm run test",
+    "coverage" : "jest --collectCoverage"
+  },
+  "devDependencies": {
+    "babel-jest": "^16.0.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "jest-cli": "^16.0.1",
+    "onchange": "^3.0.2"
+  },
+  "jest": {
+    "collectCoverage" : true,
+    "testEnvironment": "node"
+  }
+}
