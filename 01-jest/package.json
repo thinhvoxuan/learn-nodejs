@@ -26,6 +26,9 @@
         "lines": 50,
         "statements": 50
       }
+    },
+    "globals": {
+      "__DEV__": true
     }
   }
 }
