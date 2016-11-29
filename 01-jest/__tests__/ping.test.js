@@ -5,14 +5,14 @@ import {
 it('response ok', async() => {
     let res = await pingRequset();
     let data = res.data;
-    expect(data.response).toBe("not ok");
+    expect(data.response).toBe("ok");
 })
 
 describe('response not async ok', () => {
     it('call async', () => {
         return pingRequset().then(res => {
             let data = res.data;
-            expect(data.response).toBe("not ok");
+            expect(data.response).toBe("ok");
         })
     })
 })
