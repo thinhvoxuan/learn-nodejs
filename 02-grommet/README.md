@@ -24,7 +24,9 @@ To run this application, execute the following commands:
     ```
 
 
-Tasks: 
+Tasks:
+
+
 [ ] Unit test with react components
 [ ] Unit test with mobx stores
 [ ] Integration test with mobx and react
