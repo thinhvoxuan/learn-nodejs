@@ -27,7 +27,7 @@ To run this application, execute the following commands:
 Tasks:
 
 
-[ ] Unit test with react components
-[ ] Unit test with mobx stores
-[ ] Integration test with mobx and react
-[ ] Integration test with mobx and API
+- [ ] Unit test with react components
+- [ ] Unit test with mobx stores
+- [ ] Integration test with mobx and react
+- [ ] Integration test with mobx and API
