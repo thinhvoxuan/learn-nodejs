@@ -61,7 +61,7 @@ class CandidateModel {
 
   // @serializable  @observable language_list= []
 
-  @serializable
+  @serializables
   @observable
   skills = ''
 
