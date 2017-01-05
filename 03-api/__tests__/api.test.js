@@ -1,6 +1,6 @@
 import axios from 'axios';
 let client = axios.create({
-    baseURL: 'https://raw.githubusercontent.com/voxuanthinh/learn-tdd-nodejs/master/01-api/api'
+    baseURL: 'https://raw.githubusercontent.com/voxuanthinh/learn-tdd-nodejs/master/03-api/api'
 });
 
 test('test sample post ', function () {
