@@ -1,4 +1,10 @@
 {
   "rules": {
+    "semi": "off",
+    "no-unused-vars": "error",
+    "space-before-blocks": "off",
+    "react/jsx-curly-spacing": "off",
+    "indent": "off",
+    "brace-style": "off"
   }
 }
