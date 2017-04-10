@@ -27,7 +27,7 @@ it('testing single member', () => {
 });
 
 it('testing single member', () => {
-   let listMember = ['user-01'];
+   let listMember = ['user-01', 'user-02'];
    let listToken = [
        {
            "token-01" : {
@@ -47,5 +47,5 @@ it('testing single member', () => {
    ]
 
    let result = mapping(listMember, listToken);
-   expect(result).toEqual([ 'token-01' ]);
+   expect(result).toEqual([ 'token-01', 'token-02' ]);
 });
